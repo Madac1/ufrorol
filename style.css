@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#titulo {
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px lightgray solid;
+    background: black;
+    padding: 25px;
+}
+
+#titulo img{
+    height: 60px;
+}
+
+#titulo h1, #titulo img{
+    display: inline-block;
+    border: black 2px solid;
+    text-align: center;
+    margin: auto;
+}
+
+#barra-nav {
+    background: gray;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px;
+
+
+}
+#barra-nav li{
+    border: 2px black solid;
+    padding: 7px;
+    list-style: none;
+    display: inline-block;
+}
+
+.homepage {
+    width: 950px;
+    margin: 50px auto;
+}
+
+.seccion {
+    margin: 30px;
+    width: 65%;
+    float: left;
+}
+
+.articulo-principal {
+    border: solid 2px black;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.articulo-principal h2 {
+    font-weight: 800;
+}
+
+.articulo-principal h2, .articulo-principal p {
+    font-family: sans-serif;
+    margin: 10px 0px;
+}
+.articulo-principal p {
+    text-indent: 15px;
+}
+
+.articulo-principal img {
+    width: 300px;
+}
+.articulo-principal footer {
+    text-align: right;
+}
+
+
+#barra-lateral {
+    width: 25%;
+    margin: 30px 15px;
+    float: left;
+    background: gray;
+    font-family: sans-serif;
+}
+
+#barra-lateral .seccion-lateral {
+    margin: 15px 0px;
+    padding: 5px;
+}
+#barra-lateral .boton-lateral {
+    height: 30px;
+    font-size: 20px;
+    margin: 5px 1px;
+    padding: 2px;
+    border: 2px solid black;
+}
+#barra-lateral p {
+    font-size: 15px;
+}
+#barra-lateral img {
+    height: 30px;
+}
+#barra-lateral hgroup {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+}
+
+.footer p {
+    display: inline-block;
+    margin: 15px;
+    border: 2px darkgray solid;
+}
+
+
