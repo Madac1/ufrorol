@@ -49,6 +49,11 @@
     width: 65%;
     float: left;
 }
+#titulo-seccion, #descripcion-seccion {
+    margin-bottom: 6px;
+    font-family: sans-serif;
+}
+
 
 .articulo-principal {
     border: solid 2px black;
